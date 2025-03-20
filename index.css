@@ -1,0 +1,250 @@
+
+
+.container{
+   
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    
+    
+}
+
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2px;
+    color: #fcf8f8;
+}
+
+.Navbar .logo {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 50px;
+}
+.navlink {
+    display: flex;
+
+}
+
+.navlink{
+    justify-content: space-around;
+    width: 50%;
+    padding: 20px 20px 0px 0px;
+}
+
+.navlinks {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+.header{
+    width: 100%;
+    height: 70%;
+    background: url('hero.jpg') no-repeat center center / cover; 
+    padding: 10px;
+}
+.navlinks ul li {
+    
+    margin: 0 2px;
+}
+
+.navlinks a {
+    color: #f7eeee;
+    text-decoration: none;
+}
+.navlinks a::before {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2.5px; /* Adjust the thickness of the border here */
+    background-color: #790404; /* Border color */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.3s ease;}
+    .nav-links a:hover::before {
+        width: 100%;
+    }
+.main-1{
+    width: 90%;
+}
+.main-1 h1{
+    margin-top: 2.5em;
+    margin-left: 2.5em;
+    margin-bottom: 50px;
+    color: #fdfcfcdf;
+    padding: 30px;
+    width: 50%;
+    font-weight: 400;
+    font-size: 70px;
+    border: 2px solid white ;
+}
+.main-2{
+    display: flex;
+    width: 100%;
+    height: 50%;
+   align-items: center;
+   margin: 80px 0px 30px 7em;
+   padding: 40px;
+}
+.main-2 img{
+    width: 50%;
+}
+.side-text{
+    padding-top: 50px;
+    text-align: center;
+    width:40%;
+    background-color: white;
+    position: relative;
+    top:4em;
+    right: 8em;
+    height: 300px;
+
+}
+.side-text h2{
+   
+    width:50%;
+    margin-left: 2em;
+    
+}
+.side-text p{
+    width:50%;
+    margin-left: 2em;
+}
+.main3{
+    width: 100%;
+    height: 100%;
+}
+.set{
+    width: 100%;
+    height: 150%;
+}
+.main3-top-text{
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+}
+button:hover{
+    color: rgb(254, 252, 252);
+    background-color: black;
+}
+.creations-1,.creations-2{
+display: flex;
+margin-left: 20em;
+
+margin: 20px 0px 0px 20em;
+}
+
+
+.txt{
+    position: relative;
+    color: #f7eeee;
+    top:14em;
+    width: 100px;
+    left:1em
+}
+ .creations1{
+    content: "";
+    background: url('deep-earth.jpg') no-repeat center center / cover; 
+    height: 290px;
+    width:160px;
+    margin: 0px 22px 0px 0px;
+}
+.creations2{
+    content: "";
+    background: url('night-arcade.jpg') no-repeat center center / cover; 
+    height: 290px;
+    width:160px;
+    margin: 0px 22px 0px 0px;
+   
+}
+.creations3{
+    content: "";
+    background: url('soccer-team.jpg') no-repeat center center / cover; 
+    height: 290px;
+    width:160px;
+    margin: 0px 22px 0px 0px;
+   
+}
+.creations4{
+    content: "";
+    background: url('grid.jpg') no-repeat center center / cover; 
+    height: 290px;
+    width:160px;
+    margin: 0px 22px 0px 0px;
+}
+.creations5{
+    content: "";
+    background: url('from-above.jpg') no-repeat center center / cover; 
+    height: 290px;
+    width:160px;
+    margin: 0px 22px 0px 0px;
+   
+}
+.creations6{
+    content: "";
+    background: url('pocket-borealis.jpg') no-repeat center center / cover; 
+    height: 290px;
+    width:160px;
+    margin: 0px 22px 0px 0px;
+   
+}
+.creations7{
+    content: "";
+    background: url('curiosity.jpg') no-repeat center center / cover; 
+    height: 290px;
+    width:160px;
+    margin: 0px 22px 0px 0px;
+   
+}.creations8{
+    content: "";
+    background: url('fisheye.jpg') no-repeat center center / cover; 
+    height: 290px;
+    width:160px;
+    margin: 0px 22px 0px 0px;
+   
+}
+
+
+.footer{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    justify-content: space-around;
+    padding: 20px 10px 10px 10px;
+    background-color: black;
+    color: #c5c2c2;
+    margin-top: 20px;
+}
+.footer-nav-bar ul{
+display: flex;
+
+}
+.footer-logo{
+    margin-left: 50px;
+
+}
+.footer-nav-bar ul li{
+    margin: 0px 10px  ;
+ list-style: none;
+}
+.copyright{
+    color: rgb(58, 56, 56);
+}
+.socials a {
+    font-size: 25px;
+    color: #fcf8f8;
+    margin: 0px 10px 0px 0px ;
+}
+.footer-element-2{
+    padding-top: 20px;
+}
